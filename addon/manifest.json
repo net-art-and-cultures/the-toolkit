@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "",
+  "version": "1.0",
+  "description": "",
+  "homepage_url" : "",
+  "icons": {
+  "48": "the icon in toolbar"
+  },
+  "browser_action": {
+    "default_icon": "images/icon-64.png",
+    "default_popup": "interface.html", //html file in popup
+    "default_title": ""
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "unlimitedStorage",
+    "webNavigation",
+    "notifications",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources" : ["images/*"],
+  "content_scripts": [
+    {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["js/lib/jquery-3.2.1.min.js", "js/lib/q.js", "js/lib/ramda.min.js", "js/artAdder.js", "js/document_end.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}
