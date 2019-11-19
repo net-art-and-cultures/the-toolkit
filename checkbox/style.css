@@ -1,0 +1,37 @@
+body {
+   background-image: url("https://www.realmilkpaint.com/wp-content/uploads/SoftWhite_Edited_2018.jpg");
+   background-color: #33f27f;
+   background-repeat: no-repeat;
+   background-size: 100% 80%;
+}
+p {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: black;
+  text-align: right;
+}
+
+h2{
+  text-align: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #e3a98d;
+}
+
+h3{
+  text-align: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #e3a98d;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #e3a98d;
+}
+
+.checkboxx {
+
+background-color: #33f27f; }
