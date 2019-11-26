@@ -1,4 +1,5 @@
 
+
 function terms() {
   var checkBox = document.getElementById("myCheck1");
   var text = document.getElementById("text");
