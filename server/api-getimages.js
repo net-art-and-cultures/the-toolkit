@@ -15,18 +15,9 @@ router.get('/image-library', (req, res)=> {
     path = "/uploads/"
     data.images.push(path+file);
   });
-  // fs.readdirSync(uploadFolder).forEach(file => {
-  //   string = "images/"
-  //   data.images.push(string+file);
-  // });
-
   // the data sent back to the user
   res.json(data)
 })
 
-//lists image file names in console, just to test
-fs.readdirSync(uploadFolder).forEach(file => {
-  console.log(file);
-});
 
 module.exports = router
