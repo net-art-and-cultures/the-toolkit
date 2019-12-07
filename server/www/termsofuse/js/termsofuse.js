@@ -1,5 +1,5 @@
 const userPreference = document.getElementById('button')
-
+let count = 0
 // userPreference.addEventListener('mouseover', function () {
 //   userPreference.style.position = 'fixed'
 // }
@@ -8,7 +8,7 @@ userPreference.onclick = function () {
   const x = Math.floor(Math.random() * 400)
   const y = Math.floor(Math.random() * 400)
   userPreference.style.marginTop = x + 'px'
-  userPreference.style.marginLeft = y + 'px'
+  userPreference.style.marginleft = y + 'px'
 }
 
 // userPreference.mouseover = function () {

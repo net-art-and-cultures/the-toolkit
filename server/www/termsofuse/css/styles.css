@@ -28,8 +28,7 @@
   font-size: 20px;
   vertical-align: text-bottom;
   font-family: monospace;
-  margin: 50px;
- margin-left: 290px;
+ position: 400px, 290px; 
 
 }
 
