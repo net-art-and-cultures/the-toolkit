@@ -5,10 +5,14 @@ let count = 0
 // }
 // )
 userPreference.onclick = function () {
-  const x = Math.floor(Math.random() * 400)
-  const y = Math.floor(Math.random() * 400)
-  userPreference.style.marginTop = x + 'px'
-  userPreference.style.marginleft = y + 'px'
+  const x = Math.floor(Math.random() * 400) - 200
+  const y = Math.floor(Math.random() * 400) - 100
+  userPreference.style.top = x + 'px'
+  userPreference.style.left = y + 'px'
+  count ++
+  if (count > 10) {
+    window.location = 'server/www/popup.html'
+  }
 }
 
 // userPreference.mouseover = function () {

@@ -28,8 +28,10 @@
   font-size: 20px;
   vertical-align: text-bottom;
   font-family: monospace;
- position: 400px, 290px; 
-
+  position: relative;
+  top: 50px;
+  left: 300px;
+  bottom: 200px;
 }
 
 .scrollbar {
