@@ -7,7 +7,7 @@
   "description": "Replace ads with your personal photos",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/addonicon.png"
   },
 
   "content_scripts": [
