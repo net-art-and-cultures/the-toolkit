@@ -3,6 +3,13 @@ const router = express.Router()
 const uploadFolder = 'www/uploads/';
 const fs = require('fs');
 
+router.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS')
+  next()
+})
+
 // '/image-library' is the url extension for the image library
 // this
 router.get('/image-library', (req, res)=> {

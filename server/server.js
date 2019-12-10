@@ -4,6 +4,7 @@ const getimagesAPI = require('./api-getimages.js')
 const uploadAPI = require('./api-upload.js')
 const port = Number(process.argv[2]) || 8000
 const staticFiles = express.static(`${__dirname}/www`)
+
 app.use(staticFiles)
 app.use(getimagesAPI)
 app.use(uploadAPI)
