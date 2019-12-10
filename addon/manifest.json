@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "toolkit-browser-addon",
+  "version": "1.0",
+
+  "description": "Replace ads with your personal photos",
+
+  "icons": {
+    "48": "icons/addonicon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["background-script.js"]
+    }
+  ],
+"permissions":[
+  "<all_urls>",
+  "webRequest"
+]
+}
