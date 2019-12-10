@@ -29,9 +29,11 @@
   vertical-align: text-bottom;
   font-family: monospace;
   position: relative;
+  z-index: 100;
+  width: 120px;
+  height: 40px;
   top: 50px;
   left: 300px;
-  bottom: 200px;
 }
 
 .scrollbar {
