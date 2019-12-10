@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Pop UP ">
-	  <meta name="keywords" content="Tool-Kit, Net Art, Pop UP, Artware">
+    <meta name="description" content="Click Me ">
+	  <meta name="keywords" content="Tool-Kit, Net Art, Click Me, Artware">
   	<meta name="author" content="SAIC Net Art And Cultures 2019">
-    <title>The Tool-Kit | Pop Up</title>
+    <title>The Tool-Kit | Click Me</title>
     <link rel="stylesheet" href="./css/style.css">
 
     <style>
@@ -27,7 +27,6 @@
         width: 160px;
         background-color: #01FE41;
         color: #0000FF;
-        /* color: #fff; */
         text-align: center;
         border-radius: 6px;
         padding: 8px 0;
@@ -73,13 +72,13 @@
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Pop</span> Up</h1>
+          <h1><span class="highlight">Click</span> Me</h1>
         </div>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li class="current"><a href="popup.html">Pop Up</a></li>
+            <li class="current"><a href="clickme.html">Click Me</a></li>
           </ul>
         </nav>
       </div>
@@ -89,7 +88,7 @@
 
     <div class="popup" onclick="myFunction()">
       <!-- Click Me! -->
-      <span class="popuptext" id="myPopup">Insert Link</span>
+      <span class="popuptext" id="myPopup">checkboxes.html</span>
     </div>
 
     <section id="main">
@@ -100,16 +99,10 @@
           </p>
         </article>
 
-        <aside id="sidebar">
-          <div class="dark">
-            <p>More Info!</p>
           </div>
         </aside>
       </div>
     </section>
-    <footer>
-      <p>SAIC, Net Art And Cultures, Copyright &copy; 2019</p>
-    </footer>
     <script>
 
       // When the user clicks on div, open the popup
@@ -118,10 +111,12 @@
         popup.classList.toggle("show");
       }
       const clickme = document.getElementById("clickme")
-      for (var i = 0; i < 400; i++) {
-        clickme.textContent += "Click Me!"
+      for (var i = 0; i < 1830; i++) {
+        clickme.textContent += " Click Me! "
       }
-
     </script>
+    <footer>
+      <p>SAIC Net Art And Cultures, Copyright &copy; 2019</p>
+    </footer>
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   font-family: monospace;
@@ -79,21 +80,22 @@ header a:hover{
   font-weight:bold;
 }
 
-/* Showcase */
-#showcase{
+/* Tools */
+#tools{
   min-height:400px;
   background:url('../img/tools.jpg') no-repeat 0 -400px;
   text-align:center;
-  color:#ffffff;
+  color:#000000;
 }
 
-#showcase h1{
+#tools h1{
   margin-top:100px;
   font-size:55px;
   margin-bottom:10px;
+  color:#000000;
 }
 
-#showcase p{
+#tools p{
   font-size:20px;
 }
 
@@ -170,11 +172,9 @@ footer{
     padding-bottom:20px;
   }
 
-
-  #showcase h1{
+  #tools h1{
     margin-top:40px;
   }
-
 }
 #startbutton {
   margin-left: 120px;
