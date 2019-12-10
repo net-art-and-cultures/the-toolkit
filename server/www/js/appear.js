@@ -60,17 +60,11 @@ function open() {
   }
 }
 
-$(document).ready(function(){
+const linkbox = document.querySelector("#linkbox")
+linkbox.addEventListener("change",function(){
+  console.log("changed")
+  window.location="newpage.html"
 
-  $('label[for=link]').on('click', function(){
-    alert('write here code');
-window.location.href= 'http://www.rohitazad.com';
-  });
+})
 
-  $('label[for=link2]').on('click', function(){
-    alert('write here code 2');
-window.location.href= 'http://www.rohitazad.com';
-  });
-
-
-});
+console.log("ran")
