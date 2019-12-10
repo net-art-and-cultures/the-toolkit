@@ -28,11 +28,10 @@ ul{
 }
 
 .dark{
-  padding:15px;
   background:#FDFEFD;
   color:#ffffff;
   margin-top:10px;
-  margin-bottom:10px;
+  margin-bottom:0px;
 }
 
 /* Header **/
@@ -176,4 +175,11 @@ footer{
     margin-top:40px;
   }
 
+}
+#startbutton {
+  margin-left: 120px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: monospace;
+  font-size: 20px;
 }

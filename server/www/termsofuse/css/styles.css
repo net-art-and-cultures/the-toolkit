@@ -1,0 +1,48 @@
+*{margin:0;}
+
+.header {
+  margin: auto;
+  padding:80px;
+  background-color: #01FE41;
+  font-family: monospace;
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.termsofuse{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  font-family: monospace;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color:#FDFEFD;
+}
+
+.button {
+  font-size: 20px;
+  vertical-align: text-bottom;
+  font-family: monospace;
+  position: relative;
+  z-index: 100;
+  width: 120px;
+  height: 40px;
+  top: 50px;
+  left: 300px;
+}
+
+.scrollbar {
+  position: fixed;
+  right: 190px;
+  top: 300px;
+  height: 600px;
+  width: 20px;
+  background-color: grey;
+  border-color: black;
+  border-width: 20px;
+}
