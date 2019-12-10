@@ -1,14 +1,14 @@
+let checkbox
+let d = 0
+let r = 25
 
+function setup() {
+  checkbox = createCheckbox('', false)
+}
 
-
-function draw() {
-  createCanvas(window.innerWidth, window.innerHeight)
-  for (let x = 0; x < width / 10; x++) {
-    for (let y = 0; y < height; y += 10) {
-      if (random() > 0.5) line(x * 10, y + 1, x * 10 + 1, y)
-      else line(x, y, x + 60, y + 150)
-      line(x, y, x + 60, y + 0)
-      line(x, y, x + 60, y + 10)
-    }
-  }
+function draw () {
+	d += 0.02
+	let x = sin(d) * r + width/2
+  let y = cos(d) * r + height/2
+	checkbox.position(x, y)
 }
