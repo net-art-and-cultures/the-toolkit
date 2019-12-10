@@ -10,6 +10,6 @@ userPreference.onclick = function () {
   userPreference.style.right = x + 'px'
   count++
   if (count > 10) {
-    window.location = 'www/popup.html'
+    window.location = '../popup.html'
   }
 }
